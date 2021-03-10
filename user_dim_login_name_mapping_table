@@ -1,2 +1,2 @@
 create table `trax-cpg-dwh-int.demo5.user_dim_login_name` as
-select user_pk, case when concat(first_name, last_name) is null then 'None' else lower(concat(first_name, "_", last_name,'@email.com')) end as login_name_new from `trax-cpg-dwh-int.demo5.user_dim_test` 
+select user_pk, case when concat(first_name, last_name) is null then 'None' else lower(concat(first_name, "_", last_name,'@mail.com')) end as login_name_new from `trax-cpg-dwh-int.demo5.user_dim_test3`
