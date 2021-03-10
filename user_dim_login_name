@@ -1,0 +1,4 @@
+
+update `trax-cpg-dwh-int.demo5.user_dim_test2` a
+set a.login_name = b.login_name_new from `trax-cpg-dwh-int.demo5.user_dim_login_name` b
+where a.user_pk=b.user_pk
