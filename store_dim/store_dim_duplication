@@ -1,0 +1,3 @@
+select store_pk, count(*) as store_pk_count from `trax-cpg-dwh-int.demo5.store_dim` 
+group by store_pk
+having store_pk_count > 1
