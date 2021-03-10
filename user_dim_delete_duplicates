@@ -1,0 +1,3 @@
+delete from  `trax-cpg-dwh-int.demo5.user_dim_test2` 
+where login_name in ('zelkova1910@gmail.com',stirrup1960@protonmail.com)
+
