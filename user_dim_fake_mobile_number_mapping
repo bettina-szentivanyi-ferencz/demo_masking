@@ -1,0 +1,6 @@
+create table `trax-cpg-dwh-int.demo5.user_dim_fake_mobile_number_mapping` as
+select 
+a.user_pk,  
+b.fake_phone_number
+from `trax-cpg-dwh-int.demo5.user_dim_rownumber_user_pk` a, `trax-cpg-dwh-int.demo5.user_dim_fake_mobile_number` b
+where a.rownumber = b.rownum
