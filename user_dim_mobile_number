@@ -1,0 +1,3 @@
+update `trax-cpg-dwh-int.demo5.user_dim_test5` a
+set a.mobile_number = b.fake_phone_number from `trax-cpg-dwh-int.demo5.user_dim_fake_mobile_number_mapping` b
+where a.user_pk=b.user_pk
