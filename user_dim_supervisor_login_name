@@ -1,0 +1,3 @@
+update `trax-cpg-dwh-int.demo5.user_dim_test6` a
+set a.supervisor_login_name = b.string_field_2 from `trax-cpg-dwh-int.demo5.user_dim_supervisor_full_name_login_name_mapping` b
+where a.supervisor_full_name=b.string_field_1
