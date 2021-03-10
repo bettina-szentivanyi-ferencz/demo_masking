@@ -1,0 +1,15 @@
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'batru', 'demoa') where store_pk like 'batru%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'beiersdorfru', 'demob') where store_pk like 'beiersdorfru%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'ccru', 'democ') where store_pk like 'ccru%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'ccus', 'demod') where store_pk like 'ccus%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'diageoau', 'demoe') where store_pk like 'diageoau%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'frucorau', 'demof') where store_pk like 'frucorau%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'googlebrl', 'demog') where store_pk like 'googlebrl%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'gskau', 'demoh') where store_pk like 'gskau%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'gsksg', 'demoi') where store_pk like 'gsksg%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'heinekentw', 'demoj') where store_pk like 'heinekentw%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'heinzcr', 'demok') where store_pk like 'heinzcr%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'marsru-prod', 'demol') where store_pk like 'marsru-prod%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'mdlzrusf', 'demom') where store_pk like 'mdlzrusf%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'rinielsen2', 'demon') where store_pk like 'rinielsen2%';
+update `trax-cpg-dwh-int.demo5.store_dim_test2` set store_pk = replace(store_pk, 'sanofisa', 'demoo') where store_pk like 'sanofisa%';
