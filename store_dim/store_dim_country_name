@@ -1,0 +1,5 @@
+update `trax-cpg-dwh-int.demo5.store_dim_test8` 
+set country_name = 'US' where country_name in ('Australia','Russia','US','Singapore','Costa,Rica','KSA','None','Taiwan','Test','Belarus','New,Zealand','Test,Region','TEST','Japan','Chile','PanamÃ¡','Argentina','×™×©×¨××œ','Test,Country','Singapore,Training','Guatemala','Puerto,Rico','Trinidad,&,Tobago','Colombia','Jamaica','Uruguay','test','Ð Ð¾ÑÑÐ¸Ñ')
+
+update `trax-cpg-dwh-int.demo5.store_dim_test8` 
+set country_name = 'US' where country_name in ('New,Zealand','Test,Region','Panamá','ישראל','Singapore,Training','Test,Country','Puerto,Rico','Trinidad,&,Tobago','Россия')
