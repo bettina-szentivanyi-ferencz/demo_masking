@@ -1,3 +1,7 @@
 update `trax-cpg-dwh-int.demo5.store_dim_test7` a
 set a.region_name = b.region_name_new from `trax-cpg-dwh-int.demo5.store_dim_region_name_mapping` b
 where a.region_name=b.region_name_old
+
+update `trax-cpg-dwh-int.demo5.store_dim_test8` a
+set a.region_name = b.region_name_new from `trax-cpg-dwh-int.demo5.store_dim_region_name_mapping_v2` b
+where a.region_id=b.region_id
