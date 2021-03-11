@@ -1,0 +1,14 @@
+create table `trax-cpg-dwh-int.demo5.store_dim_store_name_mapping` as
+
+with
+	cte_table as (SELECT 
+store_pk, 
+store_name, 
+left(store_pk, 5) as demo_name,
+ROW_NUMBER() OVER() row_number from  `trax-cpg-dwh-int.demo5.store_dim_test3`)
+
+select 
+cte_table.store_pk,
+CONCAT('Store',' ', row_number) as store_name
+
+FROM cte_table
