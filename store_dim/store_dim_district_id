@@ -1,0 +1,3 @@
+update `trax-cpg-dwh-int.demo5.store_dim_test2` a
+set a.district_id = b.district_id from `trax-cpg-dwh-int.demo5.store_dim_store_district_mapping` b
+where a.store_pk=b.store_pk
