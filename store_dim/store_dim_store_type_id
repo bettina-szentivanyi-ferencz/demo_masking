@@ -1,0 +1,3 @@
+update `trax-cpg-dwh-int.demo5.store_dim_test10` a
+set a.store_type_id = b.store_type_id_new from `trax-cpg-dwh-int.demo5.store_dim_store_type_id_mapping` b
+where a.store_type_id=b.store_type_id
