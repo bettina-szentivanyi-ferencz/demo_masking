@@ -1,0 +1,10 @@
+create table `trax-cpg-dwh-int.demo5.store_dim_store_number_mapping` as
+with
+	cte
+	as
+(SELECT 
+store_number,
+ROW_NUMBER() OVER() AS store_number_2
+FROM `trax-cpg-dwh-int.demo5.store_dim_test11`)
+
+select cte.store_number as store_number_old, CONCAT('US',cte.store_number_2 * 999999) as store_number_new from cte
