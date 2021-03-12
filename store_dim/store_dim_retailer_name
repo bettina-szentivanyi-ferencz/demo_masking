@@ -1,0 +1,3 @@
+update `trax-cpg-dwh-int.demo5.store_dim_test11` a
+set a.retailer_name = b.retailer_name_new from `trax-cpg-dwh-int.demo5.store_dim_retailer_name_mapping_v2` b
+where a.retailer_id=b.retailer_id_new
