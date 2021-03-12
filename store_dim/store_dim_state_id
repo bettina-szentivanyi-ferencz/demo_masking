@@ -1,0 +1,3 @@
+update `trax-cpg-dwh-int.demo5.store_dim_test3` a
+set a.state_id = b.state_id_new from `trax-cpg-dwh-int.demo5.store_dim_state_id_mapping` b
+where a.state_id=b.state_id_old
